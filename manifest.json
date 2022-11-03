@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Аскорт:Маркировка навиргация в ГИИС",
+    "version": "1.0",
+    "description": "Позволяет переходить напрямую в карточки объектов по их номерам",
+    "icons": {
+        "128": "128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [ "https://dmdk.goznak.ru/*", "https://lk.dmdk.ru/*", "https://testlk.dmdk.ru/*"],
+            "js": [ "app.js" ]
+        }
+    ]
+ }
