@@ -1,3 +1,13 @@
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 2022, Мягков Антон
+// Распорстранение допускается только с указанием на автороство "Аскорт:Маркировка"
+// и сохранием информации об авторских правах
+// Все права защищены. Эта программа и сопроводительные материалы предоставляются 
+// в соответствии с условиями лицензии Attribution 4.0 International (CC BY 4.0)
+// Текст лицензии доступен по ссылке:
+// https://creativecommons.org/licenses/by/4.0/legalcode
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
 function waitDataFromGIIS(searchString)
 {
     var target = document.getElementsByTagName('TABLE');
@@ -64,7 +74,7 @@ if (searchString != undefined){
      });
 
     observer.observe(document, {attributes: false, childList: true, characterData: false, subtree:true});
-    
+
 }else{
     console.log('skeep');
 }
