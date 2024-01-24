@@ -63,10 +63,10 @@ if (searchString != undefined){
 
     console.log('search params found ' + searchString);
     var t = null; 
-    console.log('Wait for seartch input');
+    console.log('Wait for search input');
 
     var observer = new MutationObserver(function(mutations) {
-        t = document.getElementById('jhi-dmdk-search-input');
+        t = document.getElementById('dmdk-search-input');
         if (t != null) {
              observer.disconnect();
              performSearch(searchString); 
